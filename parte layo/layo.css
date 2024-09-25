@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+    padding: 35px 20px;
+    background-color: #ce0e0e; /* Bordô */
+}
+
+.logo {
+    width: 45px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+nav {
+    margin-left: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap : 1rem;
+
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Cor do texto do link */
+
+}
+
+nav ul li a i {
+ margin-right: 7px;
+}
+
+
+.cep-image {
+    width: 202px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.ident {
+    color: #10757A;
+    font-size: 48px;
+    margin-left: 162px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 438px;
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 2px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+
+.cds{
+    margin-left: 455px;
+    margin-top: 70px;
+}
+
+.cc{
+    margin-left: 455px;
+}
